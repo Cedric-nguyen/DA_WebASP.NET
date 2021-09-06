@@ -1,0 +1,49 @@
+﻿.admin{
+    min-width: 490px;
+    padding:28px 0 28px 40px;
+}
+.admin__category h1{
+    color:white;    
+    font-size:2.5rem;
+    line-height:3rem;
+    background-color:#0f813f;
+    padding:4px 8px;
+    font-weight:600;
+}
+.admin__category {
+    border:1px solid #0f813f;
+    min-height:150px;
+}
+
+.admin__category-menu a{
+    text-decoration:none;
+    font-size:2rem;
+    line-height:2rem;
+    color:#444;
+}
+.admin__category-menu {
+    padding:12px;
+}
+.admin__category-menu img {
+    margin-right:12px;
+    width:16px;
+}
+.admin__category-item{
+    left:0;
+        position:relative;
+        transition:all .2s linear;
+}
+.admin__category-item:hover{
+    left:3px;
+}
+.admin__category-item:hover{
+    color:#0f813f;
+
+}
+    .admin__category-item + .admin__category-item {
+        margin-top:8px;
+    }
+.curent.admin__category-link {
+    color:#0f813f;
+    left:3px;
+}
